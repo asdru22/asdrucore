@@ -1,0 +1,18 @@
+{
+    "providers":[
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/smithed_core.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua000"]
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/smithed_crafter.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua001"]
+      }
+    ]
+  }
