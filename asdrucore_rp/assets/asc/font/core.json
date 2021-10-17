@@ -13,6 +13,13 @@
         "ascent":10,
         "height":12,
         "chars":["\ua001"]
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/asdrucore.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua002"]
       }
     ]
   }
