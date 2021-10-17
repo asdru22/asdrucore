@@ -1,2 +1,1 @@
-scoreboard players add asc.id asc.id 1
-scoreboard players operation @s asc.id = asc.id asc.id
+execute store result score @s asc.id run scoreboard players add asc.id asc.id 1
