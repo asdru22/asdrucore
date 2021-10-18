@@ -1,4 +1,9 @@
 scoreboard objectives add asc.d dummy
+#levelling scores
+scoreboard objectives add asc.level dummy
+scoreboard objectives add asc.xp dummy
+scoreboard objectives add asc.max_xp dummy
+#entity matching scores
 scoreboard objectives add asc.id dummy
 scoreboard objectives add asc.mob_id dummy
 scoreboard objectives add asc.id.0 dummy
@@ -34,6 +39,9 @@ scoreboard objectives add asc.id.29 dummy
 scoreboard objectives add asc.id.30 dummy
 scoreboard objectives add asc.id.31 dummy
 
-data modify storage asc:storage root.core.t.version set value "1.0.0" 
+
+forceload add -3000000 2000
+setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrier",Count:1b}]}
+data modify storage asc:storage root.core.t set value {version:"1.0.0",actionbar:[]}
 function asc:core/technical/set_constants
 schedule function asc:core/technical/modules 2t

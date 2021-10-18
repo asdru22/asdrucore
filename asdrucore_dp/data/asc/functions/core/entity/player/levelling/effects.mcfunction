@@ -1,0 +1,1 @@
+tellraw @p ["level: ",{"score":{"objective": "asc.level","name": "@s"}}," xp: ",{"score":{"objective": "asc.xp","name": "@s"}}," max xp: ",{"score":{"objective": "asc.max_xp","name": "@s"}}]

@@ -20,6 +20,13 @@
         "ascent":10,
         "height":12,
         "chars":["\ua002"]
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/xp_orbs.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua003"]
       }
     ]
   }

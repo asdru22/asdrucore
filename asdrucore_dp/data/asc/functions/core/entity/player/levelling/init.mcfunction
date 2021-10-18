@@ -1,0 +1,3 @@
+scoreboard players operation @s asc.xp += d.0 asc.xp
+title @s[tag=!asc.core.actionbar] actionbar [{"translate":"gui.asc.gain_xp","with":[{"score":{"name": "d.0","objective": "asc.xp"}},{"font":"asc:core","text":"\ua003"},{"score":{"name": "@s","objective": "asc.xp"},"color":"#8B92EE"},{"score":{"name": "@s","objective": "asc.max_xp"},"color":"#8B92EE"}]}]
+execute if score @s asc.xp >= @s asc.max_xp run function asc:core/entity/player/levelling/levelup

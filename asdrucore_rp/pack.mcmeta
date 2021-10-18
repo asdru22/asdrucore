@@ -1,6 +1,6 @@
 {
    "pack": {
       "pack_format": 7,
-      "description": "Resources for any asdrucore based datapack."
+      "description": "Resources for any asdrucore based datapack.\nIncludes resources for Smithed crafter."
    }
 }
