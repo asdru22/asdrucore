@@ -1,1 +1,0 @@
-function #asc:core/player/actionbar

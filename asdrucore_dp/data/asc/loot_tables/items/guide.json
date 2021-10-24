@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:written_book",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{\"pools\":[{\"rolls\":1,\"entries\":[{\"type\":\"minecraft:item\",\"name\":\"minecraft:written_book\",\"functions\":[{\"function\":\"minecraft:set_nbt\",\"tag\":\"{CustomModelData:690000,asc:{id:\"guide\"},title:\"guide\",author:\"asdru\",pages:['[{\"text:\"iaaa\"}]','[{\"text:\"oooaa\"}]','[{\"text:\"aaooo\"}]','[{\"text:\"caccole\"}]','[{\"text:\"amongus sus\"}]']}\"}]}]}]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
