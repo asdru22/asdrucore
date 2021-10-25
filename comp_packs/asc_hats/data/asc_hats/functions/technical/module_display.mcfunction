@@ -1,0 +1,1 @@
+data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.asc.hats","with":[{"text":"\\ua004","font":"asc:core"}]}'

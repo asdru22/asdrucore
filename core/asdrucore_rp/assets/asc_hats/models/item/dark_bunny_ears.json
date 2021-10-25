@@ -40,7 +40,7 @@
 				"east": {"uv": [16, 16, 16, 16], "texture": "#0"},
 				"south": {"uv": [16, 16, 16, 16], "texture": "#0"},
 				"west": {"uv": [16, 16, 16, 16], "texture": "#0"},
-				"up": {"uv": [16, 16, 16, 16], "texture": "#0"},
+				"up": {"uv": [9, 0, 4.5, 4.5], "texture": "#0"},
 				"down": {"uv": [9, 0, 4.5, 4.5], "texture": "#0"}
 			}
 		},
@@ -107,22 +107,22 @@
 	"gui_light": "front",
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [75, 225, 0],
+			"rotation": [75, 55, 0],
 			"translation": [0.25, 5, 5],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"thirdperson_lefthand": {
-			"rotation": [75, 225, 0],
+			"rotation": [75, 55, 0],
 			"translation": [0.25, 5, 5],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_righthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, 55, 0],
 			"translation": [0, 7, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 225, 0],
+			"rotation": [0, 55, 0],
 			"translation": [0, 7, 0],
 			"scale": [0.8, 0.8, 0.8]
 		},

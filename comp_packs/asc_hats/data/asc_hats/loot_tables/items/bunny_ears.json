@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:6,CustomModelData:6901000,asc:{id:\"asc_hats:bunny_ears\"},display:{Name:'{\"translate\":\"item.asc_hats.bunny_ears\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

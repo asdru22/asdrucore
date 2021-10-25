@@ -1,0 +1,1 @@
+{"asc_hats":{"item":{"bunny_ears":{"$func":["unequip"]},"dark_bunny_ears":{"$func":["equip","unequip"]}},"technical":{"$func":["module_display"]},"recipes":{"$func":["shaped"]}}}

@@ -9,7 +9,10 @@
 	"module.smd.core_not_loaded":"Smithed Core not installed!\nPlease install this datapack, as it provides core functions for the rest of the datapacks. Click here to download.",
 	"module.smd.crafter_not_loaded":"Smithed Crafter not installed!\nPlease install this datapack, as it provides core functions for the rest of the datapacks. Click here to download.",
 	"module.asc.core":"%s Asdrucore by Asdru (V %s)",
+	"module.asc.hats":"%s Cosmetic Hats by Asdru",
 	"gui.asc.gain_xp":"+%s%s (%s/%s)",
-	"gui.asc.levelup_subtitle":"[%s] ➟ [%s]"
-	
+	"gui.asc.levelup_subtitle":"[%s] ➟ [%s]",
+
+	"item.asc_hats.bunny_ears":"Bunny Ears",
+	"item.asc_hats.dark_bunny_ears":"Dark Bunny Ears"
 }

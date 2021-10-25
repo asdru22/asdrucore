@@ -27,6 +27,13 @@
         "ascent":10,
         "height":12,
         "chars":["\ua003"]
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/hats.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua004"]
       }
     ]
   }

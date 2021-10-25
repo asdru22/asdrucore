@@ -1,0 +1,31 @@
+{
+  "parent": "asc_hats:technical/root",
+  "criteria": {
+    "equip_head_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ],
+              "nbt": "{asc:{id:\"asc_hats:dark_bunny_ears\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_helmet"
+            ],
+            "nbt": "{asc:{id:\"asc_hats:dark_bunny_ears\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "asc_hats:item/dark_bunny_ears/equip"
+  }
+}
