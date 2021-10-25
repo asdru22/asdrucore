@@ -1,0 +1,21 @@
+{
+  "parent": "asc:core/technical/root",
+  "criteria": {
+    "pick_up_cursed_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{head_item:1b}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "asc:core/item/head_item/unequip"
+  }
+}
