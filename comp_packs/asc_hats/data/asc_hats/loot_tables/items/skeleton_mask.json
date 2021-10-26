@@ -9,7 +9,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:6,CustomModelData:6901000,asc:{id:\"bunny_ears\",pack:\"cosmetic_hats\"},display:{Name:'{\"translate\":\"item.asc_hats.bunny_ears\",\"italic\":false}'}}"
+                "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:6,CustomModelData:6901003,asc:{id:\"skeleton_mask\",pack:\"cosmetic_hats\"},display:{Name:'{\"translate\":\"item.asc_hats.skeleton_mask\",\"italic\":false}'}}"
               }
             ]
           }

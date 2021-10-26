@@ -5,6 +5,9 @@
   },
   "overrides": [
     {"predicate": {"custom_model_data": 6901000},"model": "asc_hats:item/bunny_ears"},
-    {"predicate": {"custom_model_data": 6901001},"model": "asc_hats:item/dark_bunny_ears"}
+    {"predicate": {"custom_model_data": 6901001},"model": "asc_hats:item/dark_bunny_ears"},
+    {"predicate": {"custom_model_data": 6901002},"model": "asc_hats:item/embedded_crown"},
+    {"predicate": {"custom_model_data": 6901003},"model": "asc_hats:item/skeleton_mask"},
+    {"predicate": {"custom_model_data": 6901004},"model": "asc_hats:item/top_hat"}
   ]
 }

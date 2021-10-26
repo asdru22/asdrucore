@@ -34,6 +34,13 @@
         "ascent":10,
         "height":12,
         "chars":["\ua004"]
-      }
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/mana.png",
+        "ascent":10,
+        "height":13,
+        "chars":["\ua005"]
+      }  
     ]
   }

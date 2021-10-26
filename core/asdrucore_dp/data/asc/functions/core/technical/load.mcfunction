@@ -3,6 +3,10 @@ scoreboard objectives add asc.d dummy
 scoreboard objectives add asc.level dummy
 scoreboard objectives add asc.xp dummy
 scoreboard objectives add asc.max_xp dummy
+#mana scores
+scoreboard objectives add asc.c_mana dummy
+scoreboard objectives add asc.m_mana dummy
+scoreboard objectives add asc.p_mana dummy
 #entity matching scores
 scoreboard objectives add asc.id dummy
 scoreboard objectives add asc.mob_id dummy
@@ -45,3 +49,4 @@ setblock -3000000 0 2000 yellow_shulker_box{Items:[{Slot:0b,id:"minecraft:barrie
 data modify storage asc:storage root.core.t set value {version:"1.0.0",actionbar:[]}
 function asc:core/technical/set_constants
 schedule function asc:core/technical/modules 2t
+function asc:core/technical/second

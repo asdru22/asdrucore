@@ -1,0 +1,82 @@
+{
+  "parent": "asc_hats:technical/root",
+  "criteria": {
+    "bunny_ears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"bunny_ears\"}}"
+          }
+        ]
+      }
+    },
+    "dark_bunny_ears": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"dark_bunny_ears\"}}"
+          }
+        ]
+      }
+    },
+    "skeleton_mask": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"skeleton_mask\"}}"
+          }
+        ]
+      }
+    },
+    "embedded_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"embedded_crown\"}}"
+          }
+        ]
+      }
+    },
+    "top_hat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"top_hat\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "bunny_ears",
+      "dark_bunny_ears",
+      "embedded_crown",
+      "skeleton_mask",
+      "top_hat"
+    ]
+  ],
+  "rewards": {
+    "function": "asc_hats:item/hats/unequip"
+  }
+}

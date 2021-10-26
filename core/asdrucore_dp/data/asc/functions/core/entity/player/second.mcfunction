@@ -1,0 +1,1 @@
+execute if entity @s[tag=asc.core.entity.player.mana.gain] run function asc:core/entity/player/mana/get

@@ -1,1 +1,1 @@
-{"asc_hats":{"item":{"bunny_ears":{"$func":["unequip"]},"dark_bunny_ears":{"$func":["equip","unequip"]}},"technical":{"$func":["module_display"]},"recipes":{"$func":["shaped"]}}}
+{"asc_hats":{"item":{"bunny_ears":{"$func":["unequip"]},"dark_bunny_ears":{"$func":["equip","unequip"]},"hats":{"$func":["equip","unequip"],"unequip":{"$func":["bunny_ears","dark_bunny_ears","top_hat","embedded_crown","skeleton_mask"]}}},"technical":{"$func":["module_display"]},"recipes":{"$func":["shaped"]}}}
