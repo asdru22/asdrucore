@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{AttributeModifiers:[],Unbreakable:1b,HideFlags:6,CustomModelData:6901005,asc:{id:\"shadow_horns\",pack:\"cosmetic_hats\"},display:{Name:'{\"translate\":\"item.asc_hats.shadow_horns\",\"italic\":false}'}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

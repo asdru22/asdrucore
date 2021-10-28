@@ -12,5 +12,9 @@ execute if entity @s[advancements={asc_hats:technical/item/hats/unequip={skeleto
 
 execute if entity @s[advancements={asc_hats:technical/item/hats/unequip={embedded_crown=true}}] run function asc_hats:item/hats/unequip/embedded_crown
 
+execute if entity @s[advancements={asc_hats:technical/item/hats/unequip={top_hat=true}}] run function asc_hats:item/hats/unequip/top_hat
+
+execute if entity @s[advancements={asc_hats:technical/item/hats/unequip={shadow_horns=true}}] run function asc_hats:item/hats/unequip/shadow_horns
+
 ###
 advancement revoke @s only asc_hats:technical/item/hats/unequip

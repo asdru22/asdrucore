@@ -11,11 +11,5 @@
 	"module.asc.core":"%s Asdrucore by Asdru (V %s)",
 	"module.asc.hats":"%s Cosmetic Hats by Asdru",
 	"gui.asc.gain_xp":"+%s%s (%s/%s)",
-	"gui.asc.levelup_subtitle":"[%s] ➟ [%s]",
-
-	"item.asc_hats.bunny_ears":"Bunny Ears",
-	"item.asc_hats.dark_bunny_ears":"Dark Bunny Ears",
-	"item.asc_hats.skeleton_mask":"Skeleton Mask",
-	"item.asc_hats.embedded_crown":"Embedded Crown",
-	"item.asc_hats.top_hat":"Top Hat"
+	"gui.asc.levelup_subtitle":"[%s] ➟ [%s]"
 }

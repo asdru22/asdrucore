@@ -1,5 +1,5 @@
 scoreboard players set d.0 asc.m_mana 1000
-scoreboard players set d.0 asc.p_mana 2
+scoreboard players set d.0 asc.p_mana 5
 
 ## modifying max mana goes here
 

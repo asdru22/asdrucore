@@ -65,6 +65,19 @@
           }
         ]
       }
+    },
+    "shadow_horns": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:carrot_on_a_stick"
+            ],
+            "nbt": "{asc:{id:\"shadow_horns\"}}"
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -73,7 +86,8 @@
       "dark_bunny_ears",
       "embedded_crown",
       "skeleton_mask",
-      "top_hat"
+      "top_hat",
+      "shadow_horns"
     ]
   ],
   "rewards": {
