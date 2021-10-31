@@ -1,10 +1,17 @@
 {
     "parent": "minecraft:block/furnace",
-    "overrides": [{
+    "overrides": [
+      {
         "predicate": {
           "custom_model_data": 4250001
         },
         "model": "smithed:block/crafter/table"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 6900001
+        },
+        "model": "asc_welding_station:block/welding_station"
       }
     ]
   }

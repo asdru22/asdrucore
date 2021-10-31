@@ -41,6 +41,13 @@
         "ascent":10,
         "height":13,
         "chars":["\ua005"]
+      },
+      {
+        "type":"bitmap",
+        "file":"asc:gui/icons/welding_station.png",
+        "ascent":10,
+        "height":12,
+        "chars":["\ua006"]
       }  
     ]
   }

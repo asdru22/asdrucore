@@ -1,4 +1,3 @@
-say init
 scoreboard players set $hit asc.id 0
 execute if entity @s[advancements={asc:core/technical/player/on_hit={bit0=true}}] run scoreboard players add $hit asc.id 1
 execute if entity @s[advancements={asc:core/technical/player/on_hit={bit1=true}}] run scoreboard players add $hit asc.id 2

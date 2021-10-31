@@ -1,0 +1,1 @@
+{"asc_welding_station":{"block":{"$func":["destroy","destroy"],"welding_station":{"$func":["set","place"]}},"recipes":{"$func":["shapeless","shaped"]},"technical":{"$func":["module_display"]}}}

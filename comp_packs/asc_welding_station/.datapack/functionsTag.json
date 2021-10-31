@@ -1,0 +1,1 @@
+{"smithed":{"crafter":{"$tags":["recipes","shapeless_recipes"]},"core":{"$tags":["place_block"]}},"asc_welding_station":{"core":{"technical":{"$tags":["module_check"]},"player":{"$tags":["when_hit","tick","on_hit"]},"mob":{"$tags":["when_hit","on_hit"]}}},"asc":{"core":{"technical":{"$tags":["module_check"]},"block":{"$tags":["destroy"]}}}}

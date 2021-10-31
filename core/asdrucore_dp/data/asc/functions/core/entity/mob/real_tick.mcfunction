@@ -1,0 +1,1 @@
+execute if entity @s[tag=asc.core.block] if block ~ ~ ~ #smithed:core/air run function #asc:core/block/destroy

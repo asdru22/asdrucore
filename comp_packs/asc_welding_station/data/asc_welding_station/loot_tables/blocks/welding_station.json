@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:furnace",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6901000,display:{Name:'{\"translate\":\"block.asc_welding_station.welding_station\",\"italic\":false}'},BlockEntityTag:{Items:[{id:\"minecraft:stone\",Count:1b,Slot:0b,tag:{asc:{id:\"welding_station\",pack:\"welding_station\"},smithed:{block:{id:\"asc_welding_station:welding_station\"}}}}]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

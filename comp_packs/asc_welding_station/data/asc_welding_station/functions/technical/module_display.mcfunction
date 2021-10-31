@@ -1,0 +1,1 @@
+data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.asc.welding_station","with":[{"text":"\\ua006","font":"asc:core"}]}'
