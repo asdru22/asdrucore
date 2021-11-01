@@ -31,6 +31,9 @@ execute if entity @s[advancements={asc:core/technical/player/interact_with_villa
 execute if entity @s[advancements={asc:core/technical/player/interact_with_villager={bit29=true}}] run scoreboard players add $trade asc.id 536870912
 execute if entity @s[advancements={asc:core/technical/player/interact_with_villager={bit30=true}}] run scoreboard players add $trade asc.id 1073741824
 execute if entity @s[advancements={asc:core/technical/player/interact_with_villager={bit31=true}}] run scoreboard players operation $trade asc.id *= asc.const.-1 asc.d
-data modify storage asc:storage root.core.player_hit_mob.Inventory set from entity @s Inventory
+scoreboard players operation d.2 asc.d = @s asc.id
+data remove storage asc:storage root.core.player_trade
+data modify storage asc:storage root.core.player_trade.Inventory set from entity @s Inventory
+data modify storage asc:storage root.core.player_trade.SelectedItem set from entity @s SelectedItem
 execute as @e[type=#asc:mobs,tag=asc.core.mob.setup] if score @s asc.mob_id = $trade asc.id run function asc:core/entity/mob/trader/traded_with
 advancement revoke @s only asc:core/technical/player/interact_with_villager

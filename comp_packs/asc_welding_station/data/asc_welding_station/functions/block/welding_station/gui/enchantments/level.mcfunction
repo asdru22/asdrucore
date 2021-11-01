@@ -1,0 +1,11 @@
+execute if score d.0 asc.d matches 1 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.1"}]
+execute if score d.0 asc.d matches 1 as @e[type=minecraft:armor_stand,tag=asc.temp_item_holder,sort=nearest,limit=1] if predicate asc:entity/wearing/single_lvl_enchantment run tellraw @s {"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}
+execute if score d.0 asc.d matches 2 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.2"}]
+execute if score d.0 asc.d matches 3 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.3"}]
+execute if score d.0 asc.d matches 4 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.4"}]
+execute if score d.0 asc.d matches 5 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.5"}]
+execute if score d.0 asc.d matches 6 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.6"}]
+execute if score d.0 asc.d matches 7 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.7"}]
+execute if score d.0 asc.d matches 8 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.8"}]
+execute if score d.0 asc.d matches 9 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.9"}]
+execute if score d.0 asc.d matches 10 run tellraw @s [{"nbt":"root.temp.ench_name","storage":"asc:storage","interpret":true}," ",{"translate":"enchantment.level.10"}]

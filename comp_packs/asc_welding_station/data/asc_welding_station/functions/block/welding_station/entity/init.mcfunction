@@ -1,0 +1,2 @@
+execute unless score @s asc.p_clicked_id matches 1.. as @p[advancements={asc:core/technical/player/interact_with_villager=true}] run function asc_welding_station:block/welding_station/entity/actions
+execute if score @s asc.p_clicked_id matches 1.. run function asc_welding_station:block/welding_station/entity/player_check

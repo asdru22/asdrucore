@@ -1,0 +1,1 @@
+execute if entity @s[tag=asc.welding_table.block.welding_table] run function asc_welding_station:block/welding_station/interact
