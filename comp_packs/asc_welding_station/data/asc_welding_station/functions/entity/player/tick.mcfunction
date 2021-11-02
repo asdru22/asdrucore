@@ -1,0 +1,1 @@
+execute if entity @s[scores={asd.welding_st.c=1..}] run function asc_welding_station:block/welding_station/click/main

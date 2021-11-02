@@ -1,0 +1,1 @@
+scoreboard players enable @s asd.welding_st.c

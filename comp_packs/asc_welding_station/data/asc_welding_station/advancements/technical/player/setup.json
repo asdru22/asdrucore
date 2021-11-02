@@ -1,0 +1,11 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location"
+      }
+    },
+    "rewards": {
+      "function": "asc_welding_station:entity/player/setup"
+    }
+  }
+  
