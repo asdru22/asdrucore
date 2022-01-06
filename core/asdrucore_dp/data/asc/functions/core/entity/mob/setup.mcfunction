@@ -1,4 +1,4 @@
-tag @s add asc.core.mob.setup
+tag @s add cotv.mob.setup
 # Assign a new id to the entity
 execute store result score @s asc.id run scoreboard players add asc.id asc.id 1
 scoreboard players operation @s asc.mob_id = @s asc.id

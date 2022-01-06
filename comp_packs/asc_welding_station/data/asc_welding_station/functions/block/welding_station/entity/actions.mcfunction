@@ -1,3 +1,2 @@
 execute if data storage asc:storage root.core.player_trade.SelectedItem.tag.asc.traits.durability run function asc_welding_station:block/welding_station/entity/load_item
 execute unless data storage asc:storage root.core.player_trade.SelectedItem if data entity @e[type=wandering_trader,limit=1,tag=asc.temp.0] HandItems[0].Count run function asc_welding_station:block/welding_station/entity/take_item
-say actions
