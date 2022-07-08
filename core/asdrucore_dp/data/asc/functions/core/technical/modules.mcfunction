@@ -3,20 +3,15 @@ data modify storage asc:storage root.core.t.modules set value []
 data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.asc.core","with":[{"text":"\\ua002","font":"asc:core"},{"nbt":"root.core.t.version","storage":"asc:storage"}]}'
 
 scoreboard players set d.0 asc.d 0
-scoreboard players set d.0 smd.data 1
-execute if score d.0 smd.data matches 1 run scoreboard players set d.0 asc.d 1
-execute if score d.0 asc.d matches 1 run scoreboard players set d.1 asc.d 1
-execute unless score d.0 asc.d matches 1 run scoreboard players set d.1 asc.d -1
-execute if score d.1 asc.d matches 1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smd.core","with":[{"text":"\\ua000","font":"asc:core"}]}'
-execute if score d.1 asc.d matches -1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smd.core_not_loaded","color":"dark_red","clickEvent":{"action":"open_url","value":"https://github.com/TheNuclearNexus/SmithedCore"}}'
+
 
 scoreboard players set d.0 asc.d 0
-scoreboard players set d.0 smd.inv_change 1
-execute if score d.0 smd.inv_change matches 1 run scoreboard players set d.0 asc.d 1
+scoreboard players set d.0 smithed.inv_change 1
+execute if score d.0 smithed.inv_change matches 1 run scoreboard players set d.0 asc.d 1
 execute if score d.0 asc.d matches 1 run scoreboard players set d.1 asc.d 1
 execute unless score d.0 asc.d matches 1 run scoreboard players set d.1 asc.d -1
-execute if score d.0 smd.inv_change matches 1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smd.crafter","with":[{"text":"\\ua001","font":"asc:core"}]}'
-execute if score d.1 asc.d matches -1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smd.crafter_not_loaded","color":"dark_red","clickEvent":{"action":"open_url","value":"https://github.com/TheNuclearNexus/SmithedCrafter"}}'
+execute if score d.0 smithed.inv_change matches 1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smithed.crafter","with":[{"text":"\\ua001","font":"asc:core"}]}'
+execute if score d.1 asc.d matches -1 run data modify storage asc:storage root.core.t.modules insert -1 value '{"translate":"module.smithed.crafter_not_loaded","color":"dark_red","clickEvent":{"action":"open_url","value":"https://github.com/TheNuclearNexus/SmithedCrafter"}}'
 
 execute as @a[tag=asc.core.dev] run function #asc:core/technical/module_check
 

@@ -4,10 +4,8 @@
 	"commands.asc.already_dev":"%s already has permissions.",
 	"commands.asc.reload": "Reload complete!",
 
-	"module.smd.core":"%s Smithed Core by TheNuclearNexus",
-	"module.smd.crafter":"%s Smithed Crafter by TheNuclearNexus and CreeperMagnet_",
-	"module.smd.core_not_loaded":"Smithed Core not installed!\nPlease install this datapack, as it provides core functions for the rest of the datapacks. Click here to download.",
-	"module.smd.crafter_not_loaded":"Smithed Crafter not installed!\nPlease install this datapack, as it provides core functions for the rest of the datapacks. Click here to download.",
+	"module.smithed.crafter":"%s Smithed Crafter by TheNuclearNexus and CreeperMagnet_",
+	"module.smithed.crafter_not_loaded":"Smithed Crafter not installed!\nPlease install this datapack, as it provides core functions for the rest of the datapacks. Click here to download.",
 	"module.asc.core":"%s Asdrucore by Asdru (V %s)",
 	"gui.asc.gain_xp":"+%s%s (%s/%s)",
 	"gui.asc.levelup_subtitle":"[%s] ➟ [%s]"
